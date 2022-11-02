@@ -3,11 +3,11 @@ import { ContainerFooter } from "./styled"
 import brazil from "../../../assets/images/brazil-flag.png"
 import spain from "../../../assets/images/spain-flag.png"
 import english from "../../../assets/images/united-states-flag.png"
-import { IProps } from "../../../types"
+import { IFooter, IProps } from "../../../types"
 
 
 
-export const Footer = ({ languages}:IProps) => {
+export const Footer = ({ languages}:IFooter) => {
     return(
         <ContainerFooter>
             <Botao image={brazil} text="Brasil" languages={ languages} />
