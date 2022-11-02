@@ -10,13 +10,15 @@
 
 - [Sobre](#-sobre)
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
-- [Pagina](https://one-page-ecru.vercel.app/)
+- [Pagina](https://desafio-stack-x-web3-react-ts.vercel.app/)
 
 ## 🔖&nbsp; Sobre
 
 ---
 
-Este é um  Desafio da <strong>Stack X</strong>  elaborado pelo Mentor do modulo de WEB 3 Gabriel , onde era preciso desenvolver Lading Page Simples ,utilizando <strong>ReactJS </strong> +<strong> Styled Components</strong> com <strong> TypeScript</strong> , com o intuito de praticar o que venha-mos estudado atualmente.
+Este é um  Desafio da <strong>Stack X</strong>  elaborado pelo Mentor do modulo de WEB 3 Gabriel , onde era preciso desenvolver Lading Page Simples ,utilizando <strong>ReactJS </strong> +<strong> Styled Components</strong> com <strong> TypeScript</strong> ,e enviar eventos pelos botões para trocar cada states (idioma) com o intuito de praticar o que venha-mos estudado atualmente.
+
+
 
 Atualmente estou cursando <strong>Dev Full Jr.</strong> na <strong>StackX - Formação de Desenvolvimento de Software</strong>,
 sempre me propus a aprender e estudar para alcançar os objetivos na minha vida profissional, entrando de cabeça e focando no aprendizado.
