@@ -15,6 +15,8 @@ export const Home = () => {
         pt: "Olá, meu nome é Lucas Gomes e eu sou Desenvolvedor Front-End, Tecnologias que tenho experiência:",
         es:"Hola, mi nombre es Lucas Gomes y soy Desarrollador Front-End, Tecnologías en las que tengo experiencia:"
     }]
+
+    
    
 
     const [language, setLanguage] = useState(idioma[0].pt)
@@ -38,7 +40,7 @@ export const Home = () => {
             <ResumoProfissional>
                     {language}
             </ResumoProfissional>
-            <TechList/>
+                <TechList  />
            </Container_content>
             <Footer languages={handleLanguage} />
            
