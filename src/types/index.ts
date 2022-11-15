@@ -7,3 +7,5 @@ export type IProps = {
 export type IFooter = {
   languages: (texto: string) => void;
 };
+
+export type ITechs = Array<string>;

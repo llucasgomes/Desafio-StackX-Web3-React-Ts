@@ -1,24 +1,17 @@
+import { ITechs } from "../../../types"
 import { ContainerList } from "./styled"
 
+
+
 export const TechList = () => {
+    const techologies = ["Javascript","React",'Vue js','Tailwind CSS','Styled Components','Saas',"Node",'TypeScript',"Angular","Java"]
+
     return (
         <ContainerList>
             <ul>
-                <li>Javascript</li>
-                <li>React</li>
-                <li>Vue Js</li>
-                <li>Tailwind CSS</li>
+                {techologies.map((item, index) => (<li>{item}</li>))}
             </ul>
-            <ul>
-                <li>Styled Components</li>
-                <li>Saas</li>
-                <li>Node</li>
-                <li>TypeScript</li>
-            </ul>
-            <ul>
-                <li>Angular</li>
-                <li>Java</li>
-            </ul>
+            
         </ContainerList>
 
     )
